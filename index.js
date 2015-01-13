@@ -1,16 +1,16 @@
 var categories = [
   require('./lib/compatibility'),
-  require('./lib/database'),
-  require('./lib/engineering'),
-  require('./lib/logical'),
-  require('./lib/math-trig'),
-  require('./lib/text'),
   require('./lib/cube'),
+  require('./lib/database'),
   require('./lib/date-time'),
+  require('./lib/engineering'),
   require('./lib/financial'),
   require('./lib/information'),
+  require('./lib/logical'),
   require('./lib/lookup-reference'),
+  require('./lib/math-trig'),
   require('./lib/statistical'),
+  require('./lib/text'),
   require('./lib/web'),
 ];
 

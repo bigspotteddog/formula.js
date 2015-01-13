@@ -66,6 +66,11 @@ exports.parseNumber = function(string) {
   }
   if (!isNaN(string)) {
     return parseFloat(string);
+  } else {
+    // var test = parseInt(string, 16);
+    // if (!isNaN(test)) {
+    //   return test;
+    // }
   }
   return error.value;
 };
